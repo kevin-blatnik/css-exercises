@@ -20,6 +20,37 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;  /*match with gap*/
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-mid-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.info-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
 }
 
 .icon {
